@@ -1,6 +1,6 @@
 <html> 
     <body>
-    IMC <br> <?php echo $_POST ['altura']; ?> <br>
+    IMC <br> <?php echo $_POST ['altura']; ?> <br> 
     <?php echo $_POST ['peso']; ?> <br>
 <?php
 
@@ -10,11 +10,11 @@ $IMC = $peso / ($altura**2);
 echo "Seu IMC é: " .$IMC. "<br>";
 
 if ($IMC <= 18.5){
-   echo "Voce está magro.";
+    echo "Voce está magro.";
 }
 
 if ($IMC >= 18.5){
-   echo "Seu peso está normal.";
+    echo "Seu peso está normal.";
 }
 
 if ($IMC >= 25 && $IMC <= 29.9){ 
@@ -28,3 +28,9 @@ if ($IMC >= 30){
 ?> 
     </body>
 </html>
+
+<form action='imc.php' method='post'>
+    Altura: <input type='text' name='altura'><br> 
+    Peso: <input type='text' name='peso'><br> 
+    <input type='submit'>
+</form>
