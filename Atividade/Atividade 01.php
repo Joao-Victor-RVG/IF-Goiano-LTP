@@ -34,3 +34,6 @@ if ($IMC >= 30){
     Peso: <input type='text' name='peso'><br> 
     <input type='submit'>
 </form>
+
+
+
