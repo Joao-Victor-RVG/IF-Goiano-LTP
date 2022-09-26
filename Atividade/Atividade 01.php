@@ -1,6 +1,6 @@
 <html> 
     <body>
-    IMC <br> <?php echo $_POST ['altura']; ?> <br> 
+         IMC <br> <?php echo $_POST ['altura']; ?> <br> 
     <?php echo $_POST ['peso']; ?> <br>
 <?php
 
