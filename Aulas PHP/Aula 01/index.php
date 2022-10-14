@@ -1,0 +1,4 @@
+/*
+   Instalação do XAAMP
+*/
+
