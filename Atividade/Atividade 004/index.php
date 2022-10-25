@@ -1,8 +1,4 @@
-<?php
-$cookie_name = "from";
-$cookie_value = "luludia fofa";
-setcookie($cookie_name, $cookie_value, time() + (864500* 50), "/");
-?>
+
 <html>
     <body>
         <h1>Digite a baixo os valores desejados:</h1><br>
