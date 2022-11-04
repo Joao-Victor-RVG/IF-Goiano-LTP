@@ -16,7 +16,15 @@
              $r2 = (-$b - sqrt($delta)) / 2 * $a;
 
             echo " As raizes são $r1 e $r2 ";
+
         }
+
+        setcookie("Valores dos lados do triangulo", ",$a" , "$b" ,"$c"  , (time() + (3 + 24 + 3600)));
+
+        setcookie("Valores correspondetes ao resultado da expresão","$r1" , "$r2" , "$delta"(time() + (3 + 24 * 3600)));
+
+
+
 
 
        ?>
