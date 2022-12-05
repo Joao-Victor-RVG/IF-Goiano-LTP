@@ -13,7 +13,6 @@
             <?php
             session_start();
 
-
             echo("<br><h1>Nome Completo:</h1><br>". $_SESSION['name']);
             echo("<br><h1>Room:</h1><br>". $_SESSION['room']);
             echo("<br><h1>Check-in:</h1><br>". $_SESSION['checkin'] );
@@ -25,6 +24,3 @@
 
 </body>
 </html>
-
-
-

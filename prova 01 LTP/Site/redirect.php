@@ -25,7 +25,6 @@ if ($_POST['cpf'] == "" || $_POST['fname'] == "" || $_POST['endereco'] == "" || 
 else {
     header('Location: http://localhost/Site/check.php');
 }
-
 ?>
 
 </html>
