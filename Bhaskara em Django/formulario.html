@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Bhaskara</title>
+</head>
+<body>
+    <h1>Calculadora Bhaskara</h1>
+
+    <form action="{% url 'ip' %}" method="POST">{% csrf_token %}
+        a: <input type="number" name="a" placeholder="a">
+        <br>
+        b: <input type="number" name="b" placeholder="b">
+        <br>
+        c: <input type="number" name="c" placeholder="c">
+        <br>
+        <br>
+        <input type="submit" name="botao" value="Enviar">
+
+    </form>
+</body>
+</html>
